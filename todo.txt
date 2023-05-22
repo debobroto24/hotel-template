@@ -1,0 +1,83 @@
+1) Top line: hotel name, 2 ratings and the menu button.
+
+2) 2nd line: anchor links to content in the page.
+
+3) Then empty space to show the image in the background.
+
+4) Then the name of the hotel.
+
+5) Under hotel name a small paragraph of text.
+
+6) Under that a search function for the user to check rates.
+
+7) Then show the hotel brand logo, and the breadcrumbs to the city, province and homepage along with another paragraph about the hotel below that.
+
+8) Will show photos of the hotel..
+
+9) following that: reviews of the hotel.
+
+10) then icons or images of the facilities.
+
+11) below that (not shown in the mock up) room photos and room details section.
+
+12) Bottom of the page: map to the location, and email, phone and address.
+
+13) In the top right menu, when open will show the hotel brand logo, then a text letting people change from English to Thai version of the page, followed by the Email, then phone and address, finally a smaller location map of the hotel.
+Blue: 2DAAE1
+Green: 3AAA35
+Yellow: F8B133
+Red: E30613
+
+"RESTAURANTS & BARS
+Ocean Front Bistro & Beach Club
+A delightfully spacious all day dining restaurant that serves a variety of local and international dishes. In addition to the a la carte menu there is also a daily changing breakfast, lunch buffet and salad bar buffet dinner selection.
+
+- Breakfast: From 07:00 Hrs. – 10:00 Hrs.
+- Lunch: From 11:00 Hrs. – 17:00 Hrs
+- Dinner: From 18:00 Hrs. – 22:00 Hrs
+
+L-Bay Stylist Lifestyle & Pool Bar
+Dip yourself into our free – form swimming pool underneath tropical trees and flowers. Why don’t challenge someone a few strokes of free style and see who the winner is. After exercising some muscles, just sit back, relax and simply enjoy sun bath while sip our cocktails by the pool. Or do nothing and get the best out of these lazy moments.
+
+Pool bar offers wide range of sweet and savory snacks, burgers and sandwiches, classic finger foods, fresh fruits, smoothies all day.
+
+Alcoholic drinks of both local and international top brands of beers, wines, spirits and liquors are available as well as all sorts of coffee fancies.
+
+If you are still looking for more, try our signature cocktails, both alcoholic and alcohol-free, that will make your afternoon by the pool a cooler one.
+
+For weight watchers, light snacks and low-sugar drinks are also available i.e. salad, fresh fruits, yogurt drinks and etc.
+
+L-Bay Stylist Lifestyle Open: From 07:00 Hrs. – 21:00 Hrs.
+Pool Bar Open: From 07:00 Hrs. – 17:00 Hrs.
+
+MEETING & CONFERENCES
+Baan Laksasubha is the place where business can come along with pleasure. We have conference facilities to serve your business meeting at small to medium scales. Conference room can be arranged to accommodate up to 30 people. High quality LCD projector and notebook are to be provided. Team building activities can be arranged at different forms to strengthen company’s bonding.
+
+Fresh air and out-off-the-office mission can stimulate fresh ideas and out-off-the-box vision.
+
+ZAANTI SPA
+Zaanti means 'peace'. Zaanti Spa is the best place to retreat your mind, body and soul. It is where you can experience the ultimate rejuvenation and relaxation. Enjoy the mysterious arts of massage coming along with the ancient herbal remedies Relax in a separate Balinese villa with heavenly surroundings.
+
+FACILITIES & SERVICES
+Hotel Facilities
+- 24 Hour Guest Service & Information Desk
+- 24 Hour Security Guard
+- Restaurants & Bar
+- Beach Restaurant for Banquets
+- Room Service from 7 to 21 o’clock
+- Conference Facilities
+- ADSL (wireless comp. connection) in all rooms
+- Thai Traditional Massage
+- Souvenir Corner
+- 2 Swimming pool and Pool Bar
+- Children Swimming Pool
+- Private Beach corner with Sun beds, Sun desks and Bar
+- Kids' Conner
+- Tour Desk
+- Currency Exchange
+- Car Parking
+- Laundry & Dry Cleaning
+- Baby Sitting
+- Limousine/ Taxi Service
+- Concierge"
+
