@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- font awesome cdnjs  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="../css/style.css"> -->
+  <!-- swiper  -->
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+  <!-- owl carousel  -->
+  <link rel="stylesheet" href="../asset/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../asset/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="../asset/css/style.css">
+  <!-- flat picker   -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <title>hotel room</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+  <!-- ======= Header ======= -->
+
+  <section id="header" class="w-100 yellowbg mb-5">
+    <div class="container">
+      <div class="row h-100 d-flex justify-content-between">
+        <div class="col-sm-4 col-md-4 col-3 playfairfont font-weight-bold d-flex align-items-center">
+          <span class="logo">BaanLakhsudha</span>
+        </div>
+        <div class="col-sm-8 col-md-8 col-9">
+          <div class="d-flex align-items-center justify-content-lg-between justify-content-end">
+            <div class="d-flex flex-column justify-content-center align-content-end align-items-end">
+              <div class="ratebox d-sm-flex align-items-center align-content-center">
+
+                <div class="rating">
+                  <span class="hotel-rating">Hotel Rating</span>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <span class="">Tourism Rating <span class="rate-quantity">4/5</span></span>
+                <!-- <div>
+                  <span class="spartan">total rating <span class="rate-quantity">4/5</span></span>
+                </div> -->
+              </div>
+            </div>
+            <div class="">
+              <div id="menubtn" class="w-100">
+                <a data-toggle="collapse" href="#menubox" role="button" aria-expanded="false" aria-controls="menubox">
+                  <div class="menu-btn">
+                    <!-- <i style="font-size:24px" class="fa">&#xf0c9;</i> -->
+                    <div class="btnline-1"></div>
+                    <div class="btnline-2"></div>
+                    <div class="btnline-3"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <nav class="w-100 navbark">
+      <div class="container d-flex justify-content-start">
+        <ul>
+          
+          <li class="intro"><a href="#intro">About</a></li>
+          <li class="hotelgallary"><a href="#hotelgallary">Photos</a></li>
+          <li class="review"><a href="#review">Review</a></li>
+          <li class="service"><a href="#service">Service</a></li>
+          <li class="hotelroom"><a href="#hotelroom">Room</a></li>
+          <li class="location"><a href="#location">Maps</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section class="collapse text-primary z-3 col-7 col-sm-7 col-md-5 col-lg-4 menu-item-wrapper" id="menubox">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-6 offset-1">
+        <img src="../asset/image/Small Photo of the Hotel Brand Logo.gif" class="img-fluid" alt="">
+      </div>
+      <div class="col-3 offset-2 bg-black" data-toggle="collapse" href="#menubox" role="button" aria-expanded="false"
+        aria-controls="menubox">
+        <div class="cencel">
+          <i class="fa-solid fa-xmark text-dark"></i>
+        </div>
+      </div>
+      <div class="col-12 d-flex align-items-center flex-column pt-1">
+       <div class="converter-container">
+        <img src="../asset/image/Language Switcher.png" alt="">
+       </div>
+       <div>
+         <span>English     <i class="fa fa-arrows-h text-dark"></i> Thai</span>
+       </div>
+      </div>
+    </div>
+
+    <div class="row text-box pb-2">
+      <div class="col-12 p-4  d-flex align-items-center justify-content-start text-item flex-column">
+      
+        <div class="w-100">
+          <i class="fa-solid fa-envelope"><span class="text-dark">&nbsp Email</span></i>
+          <br>
+          <span>Hotel.Contact.ID+632177@gmail.com
+          </span>
+        </div>
+        <div class="w-100">
+          <i class="fa-solid fa-phone"><span class="text-dark">&nbsp Phone</span></i>
+          <br>
+          <span>087-123-3493 ext: 632177
+
+          </span>
+        </div>
+        <div class="w-100">
+          <i class="fa-sharp fa-solid fa-location-pin"><span class="text-dark">&nbsp Address</span></i>
+          <br>
+          <span>Hua Hin, Prachuab Khirikhan 77110 | 53/7 Naresdamri Road
+          </span>
+        </div>
+      
+      </div>
+      <div class="col-12 col-sm-7 col-md-8 offset-md-2 offset-sm-3  mt-2">
+        <img src="../asset/image/Small Photo of Hotel Location on Google Map.png"  alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <!--=======  image   =======-->
+  <section id="image-section" class="w-100 mb-5">
+    <div class="body">
+      <div class="text-box">
+        <span class="top-line">Baanshuda</span>
+        <p class="bottom-line">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum repellat quis ad
+          explicabo nemo, repellendus eveniet? Provident similique reiciendis rem.</p>
+      </div>
+      <div class="bg-img"></div>
+      <div class="book-room">
+        <div class="row booking-wrapper d-flex justify-content-between h-100 align-content-center">
+          <div class="col-4 col-sm-2">
+            <label for="">check in</label>
+            <input type="date">
+          </div>
+          <div class="col-5 col-sm-2">
+            <label for="">check-out</label>
+            <input type="date">
+          </div>
+          <div class="col-3 col-sm-2">
+            <label for="">Guest</label>
+            <input class="form-control" type="number">
+          </div>
+          <div class="col-12 col-sm-4 search-button d-flex justify-content-center">
+            <input class="btn" type="button" value="search">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--=======  image   =======-->
+
+
+  <!--=======  intro image   =======-->
+  <section Id="intro" class="container mt-5 pt-5 mb-5">
+    <div class="row">
+      <div class="col-12">
+        <img src="../asset/image/Large Photo of Hotel Brand Logo.gif" class="img-fluid w-100" alt="">
+      
+      
+      </div>
+      <div class="breadcrumb-k d-flex align-items-center align-content-center mt-4">
+        <ul>
+          <li>Hua Hin</li>
+          <li>Prachuab Khirikhan 77110
+          </li>
+          <li>53/7 Naresdamri Road
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 mt-1 content-wrap">
+        <div class="content">
+          <p class="blockquote">
+            Owned by a member of the Thai nobility, this picturesque resort is set in the grounds of the owners family
+            home. Tucked away in a quiet soi the resort is close to the town center. From here you are walking distance
+            to the daily Night Market as well as the weekend market. Baan Laksasubha offers several excursions depending
+            on what you are looking to experience: culture or adventure. Best would be a combination of the two, in
+            order to take in all that Hua-Hin has to offer. A must visit after a day of sightseeing is the on-site
+            Zaanti Spa, which includes signature treatments formulated by the owner. With just 16, two storey villas,
+            you are guaranteed privacy, while the scenic setting makes for a memorable holiday. Baan Laksasubha Resort
+            is a true boutique property that is sure to win your heart with the first look.
+          </p>
+        </div>
+        <a class="more"></a>
+      </div>
+    </div>
+  </section>
+  <!--=======  end intro image   =======-->
+
+  <!--=======  hotel photos   =======-->
+  <section id="hotelgallary" class="container mt-5 mb-5">
+    <div class="gallary-header">
+      <span>BaanLakhsudha photos</span>
+    </div>
+    <div class="grid-container">
+      <div class="photo-gallary grid-wrapper pt-3 pb-3">
+        <div class="tall">
+          <img src="../asset/image/General Hotel Photos 1.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/General Hotel Photos 2.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/General Hotel Photos 3.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/Hotel Facilities Photos 1.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/Hotel Facilities Photos 2.jpeg" alt="">
+        </div>
+        <div class="wide">
+          <img src="../asset/image/Hotel Facilities Photos 3.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/Hotel Facilities Photos 4.jpeg" alt="">
+        </div>
+        <div>
+          <img src="../asset/image/Hotel Facilities Photos 5.jpeg" alt="">
+        </div>
+        <!-- <div>
+        <img src="../../asset/image/Hotel Room Photos 4.jpeg" alt="">
+      </div>
+      <div>
+        <img src="../../asset/image/Hotel Room Photos 5.jpeg" alt="">
+      </div> -->
+      </div>
+    </div>
+
+  </section>
+  <!--=======  end hotel photosection   =======-->
+
+  <!-- review section ========= -->
+
+
+  <section id="review" class="mt-5 mb-5">
+    <div class="container">
+      <span class="head-line">USER REVIEW</span>
+      <div class="row rv-wrap">
+        <div class="col-12">
+          <div class="owl-carousel">
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Keng Poonyawanont
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  Hotel in a good location. but I stayed in garden villa room type, walk little far to beach front. Room
+                  facility is ok, clean. however I thought 3 bedrooms house should have a living room for family
+                  joining. But 3 bedrooms are seperated and door room not connect. Overall is good and beautiful.
+
+
+                </p>
+              </div>
+            </div>
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Nora-Helen Vetaas
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  Close to beach, close to town. A beatiful resort with charming details.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Sasithorn hagiwara
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  โรงแรมน่ารักมากค่ะ บริการดีมาก พนักงานทุกท่านบริการดีมากยิ้มแย้มแจ่มใสตลอดเวลาเลยค่ะ
+                  แต่ทำความสะอาดห้องช้าไปหน่อยนะคะ ผ้าขนหนูมาช้าด้วยค่ะ และบริการสระว่ายน้ำปิดเร็วไปหน่อย น่าจะปิดซัก
+                  สองทุ่ม(ชอบมืดๆหน่อยว่ายตอนกลางวันซ่ะตัวแดงเลย ^^)
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Petter Holst
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  Baan Laksasubha is just a great place to stay, very helpfull staff, good facilities and perfect
+                  location. The only negative experience (minor) this year was that the personell on the restauarnt
+                  seems to be untrained, they lost control if there was more than 3 tables occupied.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Yevgeniy Maryev
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  The beautiful, large area, excellent location, responsive personal.My were in June, there were few
+                  people living in the hotel, it plyus.Zavtrak was not as diverse as in the high period.No is not a
+                  minus, but by necessity. I am happy to stop at this hotel for 7-10 days.
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Valaiporn Suwankulwilai
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  The place is lovely and fantastic. Good for family.
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Timaporn
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  The accomodation is very comfortable,peaceful, large and clean.Perfect for children to have spaces to
+                  walk around. The service is very fast and considerate unlike we have read from a comment in the
+                  internet. Highly recommend for big family.
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  Zhu Xiaochun
+                </h5>
+                <p>
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  room is ok, but the air conditioner is noisy as people comments. staff are good and very nice. it is
+                  excellent to have breakfast beside the see and you would able to have very good sun shine.
+                </p>
+              </div>
+            </div>
+
+            <div class="rv-content">
+              <div class="d-flex flex-column justify-content-center align-content-center align-items-center">
+
+                <img src="../asset/image/person-logo.png" alt="">
+
+                <h5>
+                  stephen k
+                </h5>
+                <p>
+                  Kerry A Borland
+                  Baan Laksasubha, Hua Hin Beach, Naresdamri Rd.
+                  Perfect holiday location, we stayed for 14 nights and could not speak more highly of the resort.
+                  Breakfast each morning gave a large varity for all taste buds, the staff were wonderfull go out of
+                  there way to help you. The accomadtion is very clean and well kepted. We will difinatley be
+                  returning."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end review section ========= -->
+
+
+
+   <!--=======  service section   =======-->
+   <section id="service" class="container mt-5 pt-5 mb-5">
+    <h2 class="text-start ps-1 pt-2 mt-3 head-line">SERVICE</h2>
+    <div class="neu-container row d-flex justify-content-around">
+      <div class="col-12 text-start">
+
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/roomservice_use.png" alt="">
+          <!-- <i class="fa-solid fa-stopwatch"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            24 Hour Guest Service & Information Desk
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/security-guard-icon_use.png" alt="">
+          <!-- <i class="fa-solid fa-stopwatch"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            24 Hour Security Guard
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/dining-icon.png" alt="">
+          <!-- <i class="fa-solid fa-utensils"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Restaurants & Bar
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/maid-icon.png" alt="">
+          <!-- <i class="fa-solid fa-utensils"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Room Service from 7 to 21 o’clock
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/terrace-icon.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Beach Restaurant for Banquets
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/conference-room-icon.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Conference Facilities
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/wireless-connection.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            ADSL (wireless comp. connection) in all rooms
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/traditional-massage.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Thai Traditional Massage
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/Souvenir-Corner.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Souvenir Corner
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/pool.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            2 Swimming pool and Pool Bar
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/children-swimming.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Children Swimming Pool
+          </span>
+        </div>
+      </div>
+
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/private-beach.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Private Beach corner with Sun beds, Sun desks and Bar
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/kids-corner.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Kids' Conner
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/tour-desk.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Tour Desk
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/currency-exchange.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Currency Exchange
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/car-parking.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Car Parking
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/laundry-hand-wash-icon.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Laundry & Dry Cleaning
+          </span>
+        </div>
+      </div>
+      <div class="neu-card col-5 col-sm-3 col-md-3">
+        <div class="imgbx">
+          <img src="../asset/image/icon image/baby-sitting.png" alt="">
+          <!-- <i class="fa-solid fa-person-military-pointing"></i> -->
+        </div>
+        <div class="contentbx">
+          <span>
+            Baby Sitting
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=======  ende service section   =======-->
+
+
+  <!--=======  hotel room   =======-->
+  <section id="hotelroom" class="mt-5 pt-5">
+    <div class="container pt-3 p-3">
+      <h2 class="text-start ps-1 pt-2 mt-3 head-line">BaanLakhsudha Room</h2>
+      <div class="">
+        <div class="row d-flex justify-content-around content-wrap">
+        
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 1.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Tamarind Studio
+                </h3>
+                <span>
+                  Size: 23.5 sqm
+                </span>
+                <p class="card-text">
+                  A cozy bedroom with contemporary design and classy bathroom, it is suited best for couples or those
+                  who
+                  are travelling alone on business meetings or golfing holidays.
+                </p> <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 2.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Standard Room 
+                </h3>
+                <span>
+                  Size: 35.5 sqm
+                </span>
+                <p class="card-text"> Elegant spacious bedroom with a large bathroom and private outdoor area.</p>
+                <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 3.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Garden Veranda
+                </h3><span>
+                  Size: 58.5 sqm
+                </span>
+                <p class="card-text"> Room includes a spacious and comfortable bedroom with access to our luxurious
+                  bathroom. All
+                  rooms are within close proximity to our private beach.</p>
+                <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 4.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Family 2 Bedroom 
+                </h3>
+                <span>
+                  Size: 95.5 sqm
+                </span>
+                <p class="card-text"> Luxurious and comfortable bedrooms that includes 2 bathrooms, cozy living room
+                  space
+                  with easy access to our beautiful private beach.</p>
+                <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 5.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Garden Villa 3 Bedroom 
+                </h3>
+                <span>
+                  Size: 153.5 sqm
+                </span>
+                <p class="card-text"> With its large room size, the garden villa is absolutely ideal for families and
+                  groups of friends.</p>
+                <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-sm-4 col-md-4 mt-5">
+            <div class="card mb-3">
+              <img class="card-img-top" src="../asset/image/Hotel Room Photos 6.jpeg" />
+              <div class="card-body content-body">
+                <h3 class="card-title">
+                  Guest Room Amenities
+                </h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, excepturi!</p>
+                <a href="#" class="btn btn-primary">See Detail</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--=======  end hotel room   =======-->
+
+
+  <!--=======  user review section room   =======-->
+  <!-- <section id="review-section" class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators review-carousle">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="review-container">
+            <div class="review-header">
+              <h3>
+                What people say?
+              </h3>
+              <p>
+                Nam purus augue, venenatis at ante eu, commodo feugiat tellus. Vestibulum eu luctus ex, id dictum diam.
+                Nam
+                malesuada euismod tincidunt. Donec vel libero venenatis, accumsan sapien eu, blandit nibh.
+              </p>
+            </div>
+            <div class="reviewer-detail">
+              <div class="reviewer-img">
+                <img src="../../asset/image/person-logo.png" alt="">
+              </div>
+              <div class="reviewer-text">
+                <h5>manisha</h5>
+                <span>guest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section> -->
+
+
+  <!--=======  end user review section room   =======-->
+
+
+
+
+ 
+
+  <!--=======  location section   =======-->
+  <section id="location" class="mt-5 pt-5 mb-5">
+    <div class="container bcontent">
+      <span class="head-line">LOCATION</span>
+      <div class="card wrap-location" style="">
+        <div class="row no-gutters">
+          <div class="col-sm-5 imgbx">
+            <img class="card-img" src="../asset/image/Large Photo of Hotel Location on Custom Map.gif"
+              alt="Suresh Dasari Card">
+          </div>
+          <div class="col-sm-7 text-box">
+            <div class="card-body">
+              <p class="card-text"> Tucked away from the main road, Baan Laksasubha is conveniently located in the
+                center
+                of Hua Hin and
+                minutes
+                away from various outlets such as the night market, coffee shops and restaurants.
+                There are several ways to get to Hua Hin. Scheduled flights and daily trains from Bangkok to Hua Hin are
+                available. Air-conditioned buses leave the Southern Bus Terminal every 30 minutes. Driving by car from
+                Bangkok
+                takes about two and a half hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=======  end location section   =======-->
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+  <section id="review-section" class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators review-carousle">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="review-container">
+            <div class="review-header">
+              <h3>
+                What people say?
+              </h3>
+              <p>
+                Nam purus augue, venenatis at ante eu, commodo feugiat tellus. Vestibulum eu luctus ex, id dictum diam.
+                Nam
+                malesuada euismod tincidunt. Donec vel libero venenatis, accumsan sapien eu, blandit nibh.
+              </p>
+            </div>
+            <div class="reviewer-detail">
+              <div class="reviewer-img">
+                <img src="../../asset/image/person-logo.png" alt="">
+              </div>
+              <div class="reviewer-text">
+                <h5>manisha</h5>
+                <span>guest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="review-container">
+            <div class="review-header">
+              <h3>
+                What people say?
+              </h3>
+              <p>
+                Nam purus augue, venenatis at ante eu, commodo feugiat tellus. Vestibulum eu luctus ex, id dictum diam.
+                Nam
+                malesuada euismod tincidunt. Donec vel libero venenatis, accumsan sapien eu, blandit nibh.
+              </p>
+            </div>
+            <div class="reviewer-detail">
+              <div class="reviewer-img">
+                <img src="../../asset/image/person-logo.png" alt="">
+              </div>
+              <div class="reviewer-text">
+                <h5>manisha</h5>
+                <span>guest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="review-container">
+            <div class="review-header">
+              <h3>
+                What people say?
+              </h3>
+              <p>
+                Nam purus augue, venenatis at ante eu, commodo feugiat tellus. Vestibulum eu luctus ex, id dictum diam.
+                Nam
+                malesuada euismod tincidunt. Donec vel libero venenatis, accumsan sapien eu, blandit nibh.
+              </p>
+            </div>
+            <div class="reviewer-detail">
+              <div class="reviewer-img">
+                <img src="../../asset/image/person-logo.png" alt="">
+              </div>
+              <div class="reviewer-text">
+                <h5>manisha</h5>
+                <span>guest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section> -->
+
+
+  <!--=======  footer section   =======-->
+  <section id="footer" class="mt-5">
+    <div class="container footer-wrap pt-5 pb-5">
+      <div class="row d-flex flex-column flex-sm-column flex-md-row justify-content-between align-content-center">
+        <div class="col-12 col-md-3 col-lg-3 offset-lg- ft-content d-flex align-content-center flex-column mt-2">
+          <div>
+            <h6>BaanLakhsudha</h6>
+          </div>
+         
+
+          <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, fugit?</li>
+
+          </ul>
+        </div>
+        <div class="col-12 col-md-5 col-lg-5 offset-lg- ft-content mt-2">
+
+          <h6>CONTACT US</h6>
+
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i>
+              Hotel.Contact.ID+632177@gmail.com
+            </li>
+            <li><i class="fa-solid fa-phone"></i> 087-123-3493 ext: 632177
+            </li>
+            <li><i class="fa-sharp fa-solid fa-location-pin"></i> Hua Hin Town, Naresdamri Rd.
+              | 53/7 Naresdamri Road
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 offset-lg- ft-content mt-2">
+          <div class="">
+            <h6>Go To</h6>
+            <nav class="w-100 navbark">
+              <div class="container d-flex justify-content-start p-0">
+                <ul class="d-flex flex-row flex-md-column">
+                  <li class="intro"><a href="#intro">About</a></li>
+                  <li class="hotelgallary"><a href="#hotelgallary">Photos</a></li>
+                  <li class="service"><a href="#service">Service</a></li>
+                  <li class="hotelroom"><a href="#hotelroom">Room</a></li>
+                  <li class="location"><a href="#location">Maps</a></li>
+                </ul>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+        <!-- <div class="col-12 col-md-3 col-lg-3 offset-lg-1 ft-content">
+          <div class="ft-newslatter">
+            <h6>New latest</h6>
+            <ul>
+              <li>
+                Get the latest updates and offers.
+              </li>
+              <li>
+                <form action="" class="fn-form">
+                  <input type="text" placeholder="Email">
+                  <button type="submit"><i class="fa fa-send"></i></button>
+                </form>
+              </li>
+            </ul>
+            <p></p>
+
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!--=======  end footer section   =======-->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <!-- flatpicker  -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <!-- owl carouse  -->
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./owl.carousel.min.js"></script>
+  <script src="../asset/js/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        responsiveClass: true,
+        // center:true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 2,
+            nav: true,
+          },
+          800: {
+            items: 3,
+            nav: true,
+          },
+          1200: {
+            items: 3,
+            nav: true,
+            loop: false
+          }
+        }
+      })
+    });
+  </script>
+
+  <script>
+    config = {
+      enableTime: false,
+      altInput: true,
+      altFormat: "F j",
+      // altFormat: "F j, Y",
+      dateFormat: "Y-m-d",
+    }
+    flatpickr("input[type=date]", config)
+  </script>
+  <script>
+    let more = document.querySelectorAll('.more');
+    for (let i = 0; i < more.length; i++) {
+      more[i].addEventListener('click', function () {
+        more[i].parentNode.classList.toggle('activemore')
+      });
+    }
+  </script>
+  <script>
+    // console.log('hello'); 
+    // console.log(  document.querySelector('nav .container .navitemk a')); 
+    // // console.log( document.querySelector('nav .container .navitemk a [href*=' + id + ']').classList.add('activeNav')); 
+
+    // let sections = document.querySelectorAll('section'); 
+    // let navlinks = document.querySelectorAll('nav .container .navitemk a'); 
+    // sections.forEach(sec=>{
+    //   let top = window.scrollY; 
+    //   let offset = sec.offsetTop; 
+    //   let height = sec.offsetHeight; 
+    //   let id = sec.getAttribute('id'); 
+    //   if(top>= offset && top < offset+height){
+    //     navlinks.forEach(links=>{
+    //       links.classList.remove('activeNav'); 
+    //       document.querySelector('nav .container .navitemk a [href*=' + id + ']').classList.add('activeNav');
+    //     })
+    //   }
+    // });
+
+
+    const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll("nav .container ul li");
+    window.onscroll = () => {
+      var current = "";
+
+      sections.forEach((section) => {
+        let top = window.scrollY;
+
+        let offset = section.offsetTop - 250;
+        let height = section.offsetHeight;
+        let id = section.getAttribute('id');
+        const sectionTop = section.offsetTop;
+        if (top >= offset && top < offset + height) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLi.forEach((li) => {
+        li.classList.remove("activeNav");
+        if (li.classList.contains(current)) {
+          li.classList.add("activeNav");
+        }
+      });
+    };
+
+
+// working
+//         const sections = document.querySelectorAll("section");
+// const navLi = document.querySelectorAll("nav .container ul li");
+// window.onscroll = () => {
+//   var current = "";
+
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     if (pageYOffset >= sectionTop - 60) {
+//       current = section.getAttribute("id"); }
+//   });
+
+//   navLi.forEach((li) => {
+//     li.classList.remove("activeNav");
+//     if (li.classList.contains(current)) {
+//       li.classList.add("activeNav");
+//     }
+//   });
+// };
+
+
+
+  </script>
+  <!-- // swipper  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+    });
+  </script>
+
+</body>
+
+</html>
+
+
+<!-- <div class="bg-dark h-50 w-100" >
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Button with data-target
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+</div> -->
